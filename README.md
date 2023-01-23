@@ -1,19 +1,107 @@
 
 ***
 
-# The Computing-longevity project
+<div align="center">
+  <H1>The Computing Longevity project</H1>
+  <img alt="Computing longevity logo failed to load. Click/tap here to attempt to view it" src="/UNIVERSEICON2.png" width="256" class="center"/>
+</div>
 
-![UNIVERSEICON2.png This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](/UNIVERSEICON2.png)
+<div align="center">
+  <H1>By:</H2>
+  <H2><code><a href="https://github.com/seanpm2001/">Seanpm2001</a></code>, Et; Al.</H2>
+</div>
 
-# By:
+***
 
-<!-- ![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](/Image2.svg) !-->
+## Main projects
 
-## [Seanpm2001](https://github.com/seanpm2001/) / [Computing-longevity](https://github.com/Computing-longevity), Et; Al.
-  
-### Top
+- [`Software Longevity`](https://github.com/seanpm2001/Software-Longevity/) - For supporting and creating software that can last forever
+- [`Hardware Longevity`](https://github.com/Seanpm2001/Hardware-Longevity/) - For supporting and creating very long lasting hardware
 
-# `README.md`
+***
+
+## Current major hardware projects
+
+<details><summary><H3>User friendly paper printer</H3></summary>
+
+I have a project I want to put some effort towards: a 2D printer with no strings attached.
+
+The world has been plagued by [crippleware](https://en.wikipedia.org/wiki/Crippleware), [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in) printers for well over a decade now. A printer will stop functioning within months of purchase, just to get you to buy a new printer, a printer will refuse to allow ink cartridges designed for a different printer, or a different model of a printer. This has gone on for FAR too long.
+
+I am willing to support an effort to have a company that produces long-lasting, free and open source printers. The main requirements are:
+
+- The printer must consist of ONLY FLOSS software, with no proprietary bits
+- The printer must accept any ink cartridge from any manufacturer
+- The printer must be under $500 (for small printers, adjusted for 2022 December inflation levels) 
+
+<H4>Additional ideas (recommendations):</H4>
+
+- No cartridges, just pour the ink into the printer (separate ink slots for separate ink colors, of course, unless mixing it would somehow work)
+
+<H4>Notes</H4>
+
+- There may be one, two... or many companies that already do this, just not very commonly known
+- This project is going to shout out the best company, the origin country will be a factor, but not a major one ([WARNING: Politics] unless it is a country currently involved in dangerously severe human rights abuses, such as China, Russia, North Korea, won't list any more countries here)
+
+<H4>Printer software I currently see hope for includes:</H4>
+
+[:octocat: OpenPrinting](https://github.com/OpenPrinting/)
+
+<H4>Major enemies of the good printer:</H4>
+
+- Canon
+- Dell
+- Epson
+- HP
+
+This isn't very much of an environmental process (paper = trees, ink = ink + plastic) but it kind of is at the same time (less hardware waste in landfills)
+
+</details>
+
+<details><summary><H3>Standard method for creating a desktop computer that can last 50+ years</H3></summary>
+
+A lot of current devices only are designed to last 1-4 years. This is a problem, as it makes it expensive to consistently own a computer, and it leads to electronic waste.
+
+I want the world to have a computer that can easily last 10 years, and with careful usage, last 50 years or longer. It is doable, for example, the Nintendo Entertainment System is from the year 1985, and discontinued in 1995, but fully functional models are still fairly common 28 years later (as of 2023) we need to build computers that can last this long, and have this durability become common.
+
+The computer should be able to last 50 years without half of the components requiring replacement.
+
+</details>
+
+<details><summary><H3>Limiting the landfills</H3></summary>
+
+There is a huge environmental problem that has been established by Samsung, Google, Apple, and many other companies caused by a flawed business model of selling a new line of phones every year.
+
+Originally, there were lots of improvements, but nowadays, nothing notable changes on the device except for the camera (the Samsung Galaxy S8, S9, S10, S20, S21, S22, and S23 are examples of this)
+
+Due to (many, but not all) people buying new phones every year, the old phones are considered obsolete, and become electronic waste. Scale this with 2 billion people, and a yearly interval, and you can see that thousands of tons of metal is dumped into landfills every decade. These phones don't need to be tossed, this issue arises from planned obsolescence, and the right to repair, which must be tackled first.
+
+</details>
+
+<details><summary><H3>Strengthening the right to repair and banning planned obsolescence<H3></summary>
+
+The right to repair is one of the most important rights regarding computer hardware. Unfortunately, it is being trampled on, so that new devices can be created and sold yearly (see: limiting the landfills) there are 2 major battles here:
+
+- The right to repair
+- Government ban of planned obsolescence
+
+<H4>What is the right to repair></H4>
+
+The right to repair is the right that when you purchase a device from a company, you can take it to anyone (not just its manufacturer or seller) and have it be repaired for a reasonable cost, so that the device can continue being used.
+
+Unfortunately, a lot of companies don't like the right to repair, as it prevents them from selling excess hardware. Examples include Apple using overly complex and rare mechanical parts (such as very uncommon bolts) on its iPhone, or Windows 11 "forcing" people to buy a much more expensive computer.
+
+<H4>What is planned obsolescence?</H4>
+
+Planned obsolescence is the practice of selling a computer (notably a cellular phone/"smart" phone) with software that is designed to make the device become slower and unusable over a duration of (commonly) 1-4 years, so that users are enticed to buy the latest phone when it comes out. Some forms of planned obsolescence make the device stop working a decade after the operating system is installed (not related to the UNIX [Y2K38 bug](https://en.wikipedia.org/wiki/Year_2038_problem) or the Windows [Y2K bug](https://en.wikipedia.org/wiki/Year_2000_problem))
+
+</details>
+
+<details><summary><H3>Self-replicating computer research</H3></summary>
+
+In the future, a computer should be able to rebuild itself upon getting damaged/worn, upon being given the supplies to repair itself.
+
+</details>
 
 ***
 
@@ -1157,13 +1245,21 @@ Contributing is allowed for this project, as long as you follow the rules of the
 
 ## About README
 
-**File type:** `Markdown (*.md *.mkd *.markdown)`
+**File type:** `Markdown (*.md *.mkd *.mdown *.markdown)`
 
-**File version:** `2 (2021 Monday September 6th at 3:31 pm)`
+**File version:** `3 (2023, Sunday, January 22nd at 5:04 pm PST)`
 
-**Line count:** `1,337`
+**Line count (including blank lines and compiler line):** `1,451`
 
-**Language:** `English (US)`
+*Current article language:** `English (EN_USA)` / `Markdown (CommonMark)` / `HTML5 (HyperText Markup Language 5.3)`
+
+**Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
+
+**All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
+
+> **Note** _On 2022, Sunday, March 13th at 2:00 am PST, the time jumped ahead 1 hour to 3:00 am._
+
+> **NOte** **You may need special rendering support for the `<details>` HTML tag being used in this document**
 
 ***
 
@@ -1261,69 +1357,83 @@ Version 0.12A (Thursday, July 22nd 2021 at 6:26 pm)
 
 Version 1 (2021 Saturday September 4th at 7:02 pm)
 
+[This release was created by `@seanpm2001`](https://github.com/seanpm2001/)
+
 > Changes:
 
-> * Updated tag data
-
-> * Added compliant, and noncompliant software and hardware lists
-
-> * Updated the index
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * Times are now compliant with ISO:8601 and use YYYY-MM-DD rather than MM-DD-YYYY
-
-> * Updated the index
-
-> * Added the authors section
-
-> * Updated the footer, adding support for the Swisscows search engine as a 4th option
-
-> * Added the copying section
-
-> * Added the credits section
-
-> * Added the installation section
-
-> * Added the 404 page test section
-
-> * Updated the resources section
-
-> * Updated the contributors section
-
-> * Added the technical notes section
-
-> * No other changes in version 1
+- [x] Updated tag data
+- [x] Added compliant, and noncompliant software and hardware lists
+- [x] Updated the index
+- [x] Updated the file info section
+- [x] Updated the file history section
+- [x] Times are now compliant with ISO:8601 and use YYYY-MM-DD rather than MM-DD-YYYY
+- [x] Updated the index
+- [x] Added the authors section
+- [x] Updated the footer, adding support for the Swisscows search engine as a 4th option
+- [x] Added the copying section
+- [x] Added the credits section
+- [x] Added the installation section
+- [x] Added the 404 page test section
+- [x] Updated the resources section
+- [x] Updated the contributors section
+- [x] Added the technical notes section
+- [ ] No other changes in version 1
 
 Version 2 (Monday, 2021 September 6th at 3:31 pm)
 
-> Changes:
-
-> * Content update: added over 100 entries for compliant and non-compliant software
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * No other changes in version 2Con
-
-Version 3 (Coming soon)
+[This release was created by `@seanpm2001`](https://github.com/seanpm2001/)
 
 > Changes:
 
-> * Coming soon
+- [x] Content update: added over 100 entries for compliant and non-compliant software
+- [x] Updated the file info section
+- [x] Updated the file history section
+- [ ] No other changes in version 2
 
-> * No other changes in version 3
+Version 3 (2023, Sunday, January 22nd at 5:04 pm PST)
+
+[This release was created by `@seanpm2001`](https://github.com/seanpm2001/)
+
+> Changes:
+
+- [x] Updated the header and title
+- - [x] Removed a dead link
+- - [x] Centered the title and title image
+- [x] Added the key projects section
+- [x] Added the `Current major hardware projects` section
+- - [x] Added the `User friendly paper printer` subsection
+- - [x] Added the `Standard method for creating a desktop computer that can last 50+ years` subsection
+- - [x] Added the `Limiting the landfills` subsection
+- - [x] Added the `Strengthening the right to repair and banning planned obsolescence` subsection
+- - [x] Added the `Self-replicating computer research` subsection
+- [x] Updated the `File info` section
+- [x] Updated the `File History` section
+- - [x] Added an entry for version 3
+- - [x] Modified the V1, V2, and V4 entries
+- - [x] Added blank entries for V5 and V6
+- [x] Added a salvage note to the footer
+- [ ] No other changes in version 3
 
 Version 4 (Coming soon)
 
 > Changes:
 
-> * Coming soon
+- [ ] Coming soon
+- [ ] No other changes in version 4
 
-> * No other changes in version 4
+Version 5 (Coming soon)
+
+> Changes:
+
+- [ ] Coming soon
+- [ ] No other changes in version 5
+
+Version 6 (Coming soon)
+
+> Changes:
+
+- [ ] Coming soon
+- [ ] No other changes in version 6
 
 ***
 
@@ -1332,5 +1442,9 @@ Version 4 (Coming soon)
 ( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com) | [Exit to Ecosia](https://www.ecosia.com/) | [Exit to Swisscows](https://www.swisscows.com/) )
 
 ### EOF
+
+***
+
+**This page was salvaged from** [`https://github.com/seanpm2001/Seanpm2001-GitHub-Pages-Collection/tree/Seanpm2001-GitHub-Pages-Collection_Main-dev/Gh-Pages/Computing-longevity.github.io/Branches/Site#readme`](https://github.com/seanpm2001/Seanpm2001-GitHub-Pages-Collection/tree/Seanpm2001-GitHub-Pages-Collection_Main-dev/Gh-Pages/Computing-longevity.github.io/Branches/Site#readme)
 
 ***
